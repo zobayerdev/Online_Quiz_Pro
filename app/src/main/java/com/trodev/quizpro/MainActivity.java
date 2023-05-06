@@ -10,5 +10,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        // action bar title
+        getSupportActionBar().setTitle("your title");
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+
     }
 }

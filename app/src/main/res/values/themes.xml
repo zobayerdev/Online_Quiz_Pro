@@ -6,4 +6,11 @@
     </style>
 
     <style name="Theme.QuizPro" parent="Base.Theme.QuizPro" />
+
+
+    <!-- ProgressBar. -->
+    <style name="ProgressBar">
+        <item name="colorSecondary">@color/yellow</item>
+    </style>
+
 </resources>
